@@ -1,0 +1,10 @@
+[package]
+name = "cpd_tools"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = "1.6"
+process_param = { git = "https://github.com/ShutoTanabashi/process_param_p" }
